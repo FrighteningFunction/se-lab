@@ -51,6 +51,8 @@ public class TorpedoStore {
     return success;
   }
 
+ 
+  //Gives us whether if the torpedostore is empty or not
   public boolean isEmpty(){
     return this.torpedoCount <= 0;
   }
